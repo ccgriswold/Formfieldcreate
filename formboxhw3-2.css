@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+p {
+    font-family: arial;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+input {
+    align-content: left;
+    margin: 25%;
+}
+
+button {
+    display: block;
+}
+
+#form4 {
+    align-content: center;
+}
+
+.signup-form {
+    align-content: left;
+}
+
+.create-accountform {
+    margin-right: 25px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+}
+
+.text {
+    text-align: left;
+}
+
+.form {
+    display: inline-block;
+    border-style: thick;
+    border-color: grey;
+    background-color: white;
+}
