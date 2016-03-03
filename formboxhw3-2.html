@@ -1,64 +1,63 @@
 <!doctype html>
+<html>
 
 <head>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/">
     <link rel="stylesheet" href="formboxhw3-2.css">
     <title>Clay's Form Page</title>
 </head>
-<header>
-</header>
 
 <body>
     <form action="none" method="push">
-        <div id="box">
-            <div id="top">
-                <div>
-                    <p>Name</p>
-                    <input type="text" name="name" placeholder="What is your full name?">
-                </div>
-                <div>
-                    <p>Company</p>
-                    <input type="text" name="company" placeholder="Where do you currently work?">
-                </div>
+        <div class="top">
+            <div id="name">
+                <p>Name</p>
+                <span><input type="text" name="name" placeholder="What is your full name?" size="84px"></span>
             </div>
-            <br>
-            <div id="middle">
-                <div>
-                    <p>Phone Number</p>
-                    <input type="text" name="phonenumber" placeholder="What is the best # to reach you?">
-                </div>
-                <div>
-                    <p>Email</p>
-                    <input type="text" name="email" placeholder="What is your email?">
-                </div>
-                <div>
-                    <p>Availability</p>
-                    <input type="text" name="availablity" placeholder="5-15 hours per week">
-                </div>
+            <div id="company">
+                <p>Company</p>
+                <span><input type="text" name="company" placeholder="Where do you currently work?" size="84px"></span>
             </div>
-            <br>
-            <div id="bottom">
-                <div>
-                    <p>Mad Skills</p>
-                    <input type="text" name="skills" placeholder="List a few of your primary skills">
-                </div>
-                <div>
-                    <p>Yrs Experience</p>
-                    <input type="text" name="experience" placeholder="How many years experience?">
-                </div>
-                <div>
-                    <p>Favorite Colour</p>
-                    <input type="text" name="favoritecolour" placeholder="What is your favorite colour, above all others?">
-                </div>
-                <div>
-                    <p>Programming Language of Choice</p>
-                    <input type="text" name="language" placeholder="I know. Tough question.">
-                </div>
+        </div>
+        <br>
+        <div class="middle">
+            <div id="phone">
+                <p>Phone Number</p>
+                <span><input type="text" name="phonenumber" placeholder="What is the best # to reach you?" size="60px"></span>
             </div>
-            <br>
-            <div id="button">
-                <button type="submit">Submit Form</button>
+            <div id="email">
+                <p>Email</p>
+                <span><input type="text" name="email" placeholder="What is your email?" size="52px"></span>
             </div>
+            <div id="availablity">
+                <p>Availability</p>
+                <span><input type="text" name="availablity" placeholder="5-15 hours per week" size="52px"></span>
+            </div>
+        </div>
+        <br>
+        <div class="bottom">
+            <div id="skills">
+                <p>Mad Skills</p>
+                <span><input type="text" name="skills" placeholder="List a few of your primary skills" size="40"></span>
+            </div>
+            <div id="experience">
+                <p>Yrs Experience</p>
+                <span><input type="text" name="experience" placeholder="How many years experience?" size="40px"></span>
+            </div>
+            <div id="colour">
+                <p>Favorite Colour</p>
+                <span><input type="text" name="favoritecolour" placeholder="What is your favorite colour, above all others?" size="40px"></span>
+            </div>
+            <div id="language">
+                <p>Programming Language of Choice</p>
+                <span><input type="text" name="language" placeholder="I know. Tough question." size="40px"></span>
+            </div>
+        </div>
+        <br>
+        <div id="button">
+            <button type="submit">Submit Form</button>
         </div>
     </form>
 </body>
+
+</html>

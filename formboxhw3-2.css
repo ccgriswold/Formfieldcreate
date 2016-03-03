@@ -1,60 +1,84 @@
 body {
     margin: 0;
-}
-
-form {
-    width: 100%;
     border: 15px solid #bce7e7;
 }
 
 p {
     text-transform: uppercase;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: bolder;
     color: grey;
 }
 
 div {
+    background-color: white;
     border: 1px solid grey;
-}
-
-input[type="text"] {
-    background-color: transparent;
-    border: 0 10px solid;
-    height: auto;
-    color: #CCC;
-    text-align: left;
+    height: 80px;
 }
 
 input {
+    background-color: white;
     font-family: arial;
-    font-size: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
 }
 
-#box {
-    border-radius: 5px;
-    display: inline
-}
-
-#top {
-    display: inline-flex;
+span {
+    padding-left: 22px;
     position: relative;
-}
-
-#middle {
-    display: inline-flex;
-    position: relative;
-    border: 2px;
-}
-
-#botton {
-    display: inline-flex;
-    box-sizing: border-box;
-    border: 2px;
+    top: 5px;
 }
 
 button {
-    display: inline-flex;
-    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px 120px;
+    font-family: fantasy;
     color: white;
     background-color: green;
     border-radius: 4px;
+}
+
+button:hover {
+    background-color: orange;
+    font-stretch: 20px extra-expanded;
+}
+
+.top {
+    display: inline-flex;
+    border: 1px solid grey;
+}
+
+#name #company {
+    width: 50%;
+    border: 1px solid grey;
+}
+
+.middle {
+    display: inline-flex;
+    border: 1px solid grey;
+}
+
+#phone #email #availability {
+    width: 33%;
+    border: 1px solid grey;
+}
+
+.bottom {
+    display: inline-flex;
+    border: 1px solid grey;
+}
+
+#skill #colour #language #experience {
+    width: 25%;
+    border: 1px solid grey;
+}
+
+#button {
+    padding: 20px;
+    border: 1px solid grey;
+    height: auto;
 }
