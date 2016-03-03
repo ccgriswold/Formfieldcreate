@@ -2,44 +2,59 @@ body {
     margin: 0;
 }
 
+form {
+    width: 100%;
+    border: 15px solid #bce7e7;
+}
+
 p {
-    font-family: arial;
-    text-align: left;
     text-transform: uppercase;
+    color: grey;
+}
+
+div {
+    border: 1px solid grey;
+}
+
+input[type="text"] {
+    background-color: transparent;
+    border: 0 10px solid;
+    height: auto;
+    color: #CCC;
+    text-align: left;
 }
 
 input {
-    align-content: left;
-    margin: 25%;
+    font-family: arial;
+    font-size: 100%;
+}
+
+#box {
+    border-radius: 5px;
+    display: inline
+}
+
+#top {
+    display: inline-flex;
+    position: relative;
+}
+
+#middle {
+    display: inline-flex;
+    position: relative;
+    border: 2px;
+}
+
+#botton {
+    display: inline-flex;
+    box-sizing: border-box;
+    border: 2px;
 }
 
 button {
-    display: block;
-}
-
-#form4 {
+    display: inline-flex;
     align-content: center;
-}
-
-.signup-form {
-    align-content: left;
-}
-
-.create-accountform {
-    margin-right: 25px;
-    padding-left: 10px;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    border-radius: 7px;
-}
-
-.text {
-    text-align: left;
-}
-
-.form {
-    display: inline-block;
-    border-style: thick;
-    border-color: grey;
-    background-color: white;
+    color: white;
+    background-color: green;
+    border-radius: 4px;
 }

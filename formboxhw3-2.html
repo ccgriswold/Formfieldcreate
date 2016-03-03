@@ -1,69 +1,64 @@
 <!doctype html>
 
-<!-- Submit on Github-->
-
 <head>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/">
     <link rel="stylesheet" href="formboxhw3-2.css">
     <title>Clay's Form Page</title>
 </head>
-
 <header>
 </header>
 
-
 <body>
-    <div class="signup-form">
-        <form class="create-accountform" name="answer-form" action="none" method="post">
-            <div class="form">
-                <p>Name</p>
-                <input type="text" name="name" placeholder="What is your full name?">
-            </div>
-            <div class="form">
-                <p>Company</p>
-                <input type="text" name="companyinfo" placeholder="Where do you currently work?">
-            </div>
-            <br>
-            <div class="form">
-                <p>Phone Number</p>
-                <input type="text" name="phone" placeholder="What is the best # to reach you?">
-            </div>
-            <div class="form">
-                <p>Email</p>
-                <input type="text" name="email" placeholder="What is your email address?">
-            </div>
-            <div class="form">
-                <p>Availability</p>
-                <input type="text" name="availability" placeholder="5-15 hours per week">
+    <form action="none" method="push">
+        <div id="box">
+            <div id="top">
+                <div>
+                    <p>Name</p>
+                    <input type="text" name="name" placeholder="What is your full name?">
+                </div>
+                <div>
+                    <p>Company</p>
+                    <input type="text" name="company" placeholder="Where do you currently work?">
+                </div>
             </div>
             <br>
-            <div class="form">
-                <p>Mad Skills</p>
-                <input type="text" name="skills" placeholder="List a few of your primary skills">
-            </div>
-            <div class="form">
-                <p>Yrs Experience</p>
-                <input type="text" name="experience" placeholder="How many years experience?">
-            </div>
-            <div class="form">
-                <p>Favorite Colour</p>
-                <input type="text" name="favoritecolor" placeholder="What is your favorite colour, above all others?">
-            </div>
-            <div class="form">
-                <p>Programming Language of Choice</p>
-                <input type="text" name="proglang" placeholder="I know. Tough question?">
+            <div id="middle">
+                <div>
+                    <p>Phone Number</p>
+                    <input type="text" name="phonenumber" placeholder="What is the best # to reach you?">
+                </div>
+                <div>
+                    <p>Email</p>
+                    <input type="text" name="email" placeholder="What is your email?">
+                </div>
+                <div>
+                    <p>Availability</p>
+                    <input type="text" name="availablity" placeholder="5-15 hours per week">
+                </div>
             </div>
             <br>
-            <div id="form4">
-                <button id="submitbutton" class="button">Submit Form</button>
+            <div id="bottom">
+                <div>
+                    <p>Mad Skills</p>
+                    <input type="text" name="skills" placeholder="List a few of your primary skills">
+                </div>
+                <div>
+                    <p>Yrs Experience</p>
+                    <input type="text" name="experience" placeholder="How many years experience?">
+                </div>
+                <div>
+                    <p>Favorite Colour</p>
+                    <input type="text" name="favoritecolour" placeholder="What is your favorite colour, above all others?">
+                </div>
+                <div>
+                    <p>Programming Language of Choice</p>
+                    <input type="text" name="language" placeholder="I know. Tough question.">
+                </div>
             </div>
-
-        </form>
-    </div>
-
-
-
-
-
-
+            <br>
+            <div id="button">
+                <button type="submit">Submit Form</button>
+            </div>
+        </div>
+    </form>
 </body>
